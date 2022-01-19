@@ -4,7 +4,7 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import { MoralisDappProvider } from "./providers/MoralisDappProvider/MoralisDappProvider";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
