@@ -4,6 +4,7 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import { MoralisDappProvider } from "./providers/MoralisDappProvider/MoralisDappProvider";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
@@ -23,8 +24,11 @@ const Application = () => {
 };
 
 ReactDOM.render(
-  // <React.StrictMode>
-  <Application />,
-  // </React.StrictMode>,
+  <React.StrictMode>
+    <Router basename="https://nft-cryptonaut.github.io/nft-emporium/">
+      <Application />,
+    </Router>
+    ,
+  </React.StrictMode>,
   document.getElementById("root")
 );

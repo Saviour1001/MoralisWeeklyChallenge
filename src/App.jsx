@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useMoralis } from "react-moralis";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -59,7 +59,7 @@ const App = ({ isServerInfo }) => {
         <Header style={styles.header}>
           <Logo />
           <div style={styles.headerRight}>
-            <Chains/>
+            <Chains />
             <Account />
           </div>
         </Header>
@@ -84,16 +84,19 @@ const App = ({ isServerInfo }) => {
 };
 
 export const Logo = () => (
-  <div style={{display: "flex", alignItems: "center"}}>
-    <img height='30px' 
-    width='30px'
-    alt='overflowlogo' 
-    src='https://user-images.githubusercontent.com/81305824/149787348-2b8f1b69-5c2b-486d-8713-3fb2646895a9.png'
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img
+      height="30px"
+      width="30px"
+      alt="overflowlogo"
+      src="https://user-images.githubusercontent.com/81305824/149787348-2b8f1b69-5c2b-486d-8713-3fb2646895a9.png"
     />
-    <h4 style={{marginLeft: "0.2rem", fontFamily: "Cormorant Garamond"}}>Stake Overflow</h4>
+    <h4 style={{ marginLeft: "0.2rem", fontFamily: "Cormorant Garamond" }}>
+      Stake Overflow
+    </h4>
   </div>
 );
 
 export default App;
 
-// 
+//
