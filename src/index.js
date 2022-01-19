@@ -25,7 +25,7 @@ const Application = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="https://saviour1001.github.io/moralisweeklychallenge/">
+    <Router basename="https://saviour1001.github.io/MoralisWeeklyChallenge">
       <Application />,
     </Router>
     ,
