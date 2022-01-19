@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/moralisweeklychallenge/static/css/main.df769301.chunk.css",
-    "main.js": "/moralisweeklychallenge/static/js/main.be24cc8e.chunk.js",
-    "main.js.map": "/moralisweeklychallenge/static/js/main.be24cc8e.chunk.js.map",
-    "runtime-main.js": "/moralisweeklychallenge/static/js/runtime-main.de3849d0.js",
-    "runtime-main.js.map": "/moralisweeklychallenge/static/js/runtime-main.de3849d0.js.map",
-    "static/css/2.53b0ff91.chunk.css": "/moralisweeklychallenge/static/css/2.53b0ff91.chunk.css",
-    "static/js/2.b11c6d63.chunk.js": "/moralisweeklychallenge/static/js/2.b11c6d63.chunk.js",
-    "static/js/2.b11c6d63.chunk.js.map": "/moralisweeklychallenge/static/js/2.b11c6d63.chunk.js.map",
-    "index.html": "/moralisweeklychallenge/index.html",
-    "static/css/2.53b0ff91.chunk.css.map": "/moralisweeklychallenge/static/css/2.53b0ff91.chunk.css.map",
-    "static/css/main.df769301.chunk.css.map": "/moralisweeklychallenge/static/css/main.df769301.chunk.css.map",
-    "static/js/2.b11c6d63.chunk.js.LICENSE.txt": "/moralisweeklychallenge/static/js/2.b11c6d63.chunk.js.LICENSE.txt",
-    "static/media/maticToken.534d7899.png": "/moralisweeklychallenge/static/media/maticToken.534d7899.png"
+    "main.css": "/MoralisWeeklyChallenge/static/css/main.df769301.chunk.css",
+    "main.js": "/MoralisWeeklyChallenge/static/js/main.044bc7e7.chunk.js",
+    "main.js.map": "/MoralisWeeklyChallenge/static/js/main.044bc7e7.chunk.js.map",
+    "runtime-main.js": "/MoralisWeeklyChallenge/static/js/runtime-main.0ca44ef8.js",
+    "runtime-main.js.map": "/MoralisWeeklyChallenge/static/js/runtime-main.0ca44ef8.js.map",
+    "static/css/2.53b0ff91.chunk.css": "/MoralisWeeklyChallenge/static/css/2.53b0ff91.chunk.css",
+    "static/js/2.456bd640.chunk.js": "/MoralisWeeklyChallenge/static/js/2.456bd640.chunk.js",
+    "static/js/2.456bd640.chunk.js.map": "/MoralisWeeklyChallenge/static/js/2.456bd640.chunk.js.map",
+    "index.html": "/MoralisWeeklyChallenge/index.html",
+    "static/css/2.53b0ff91.chunk.css.map": "/MoralisWeeklyChallenge/static/css/2.53b0ff91.chunk.css.map",
+    "static/css/main.df769301.chunk.css.map": "/MoralisWeeklyChallenge/static/css/main.df769301.chunk.css.map",
+    "static/js/2.456bd640.chunk.js.LICENSE.txt": "/MoralisWeeklyChallenge/static/js/2.456bd640.chunk.js.LICENSE.txt",
+    "static/media/maticToken.534d7899.png": "/MoralisWeeklyChallenge/static/media/maticToken.534d7899.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.de3849d0.js",
+    "static/js/runtime-main.0ca44ef8.js",
     "static/css/2.53b0ff91.chunk.css",
-    "static/js/2.b11c6d63.chunk.js",
+    "static/js/2.456bd640.chunk.js",
     "static/css/main.df769301.chunk.css",
-    "static/js/main.be24cc8e.chunk.js"
+    "static/js/main.044bc7e7.chunk.js"
   ]
 }
