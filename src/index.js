@@ -25,7 +25,7 @@ const Application = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="https://nft-cryptonaut.github.io/nft-emporium/">
+    <Router basename="https://saviour1001.github.io/moralisweeklychallenge/">
       <Application />,
     </Router>
     ,
