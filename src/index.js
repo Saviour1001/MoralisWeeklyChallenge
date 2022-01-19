@@ -8,8 +8,8 @@ import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
-const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID;
-const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL;
+const APP_ID = "5RjPzxxFonTsBrJeGBs2X5lJR4lh6kJClOXTpo8f";
+const SERVER_URL = "https://ynezdcs2c9gy.usemoralis.com:2053/server";
 
 const Application = () => {
   const isServerInfo = APP_ID && SERVER_URL ? true : false;
@@ -25,10 +25,8 @@ const Application = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="https://saviour1001.github.io/moralisweeklychallenge/">
-      <Application />,
-    </Router>
-    ,
+    {/* <Router basename="https://saviour1001.github.io/moralisweeklychallenge/"> */}
+    <Application />,{/* </Router> */},
   </React.StrictMode>,
   document.getElementById("root")
 );

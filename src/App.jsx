@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useMoralis } from "react-moralis";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
